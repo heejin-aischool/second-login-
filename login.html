@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
+    <title>광주인공지능사관학교 - 로그인</title>
+    <link rel = 'stylesheet' href='./loginpage.css'/>
 </head>
 <body>
+    <h1>광주 인공지능 사관학교 입니다</h1>
+    <h2>로그인 또는 회원 등록</h2>
     <form action="success.html">
         <label for="use_id_input">아이디</label>
         <input type="text" name="user_id"  id="use_id_input" placeholder="아이디 입력">
@@ -21,8 +24,8 @@
             <option value="quesion_3">기억에 남는 선생님 이름</option>
         </select>
         <br>
-        <textarea name="content"  cols="30" rows="10" placeholder="자기 소개"></textarea>
-
+        <textarea name="content"  cols="30" rows="10" placeholder="자기 소개" id="use_form"></textarea>
+        <button name="등록" type = "submit" class="submit_btn">등록하기</button>
     </form>
 </body>   
 </html> 

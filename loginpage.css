@@ -1,0 +1,24 @@
+body{
+    background-color: beige;
+}
+
+h1, h2{
+    text-align: center;
+    font-style: normal;
+    color: brown;
+}
+
+.logo{
+    padding left: 600px;
+}
+
+.submit:hover{
+    color: orange;
+}
+
+#use_form{
+    background-color: peachpuff;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-style: italic;
+}
